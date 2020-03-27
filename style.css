@@ -1,0 +1,173 @@
+/* style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+  margin: 0;
+  padding: 8px;
+}
+
+.gacha-container {
+  text-align: center;
+  background-color: rgb(233, 233, 233);
+  padding-top: 40px;
+  height: 100vh;
+}
+#nama {
+  border-radius: 5px;
+}
+#hasil-gacha {
+  margin-top: 10px;
+}
+#hasil-container {
+  display: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  margin: 0 auto;
+  position: sticky;
+  top: 10px;
+}
+nav ul {
+  background-color: rgb(255, 254, 254);
+  border-radius: 7px;
+  height: 50px;
+  display: flex;
+  text-align: center;
+  width: 700px;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+
+}
+nav ul li {
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  padding: 14px 91px 15px;
+  border-radius: 7px;
+  color: rgb(48, 122, 48);
+  transition: all 0.5s;
+}
+nav ul li a:hover {
+  background-color: rgba(194, 190, 190, 0.733);
+  color: green;
+}
+
+.krispi-img {
+  width: 160px;
+  height: 160px;
+}
+.krispi-container {
+  margin: auto;
+  background-image: url("img/1.png");
+  min-height: 100vh;
+  margin-top: -50px;
+}
+.krispi-container, .krispi-container-2 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.krispi-container-2 {
+  background-image: url('./img/krispi2.png');
+  margin: auto;
+  min-height: 400px;
+}
+.krispi-caption {
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  left: 0;
+  position: absolute;
+  margin-bottom: 8px;
+}
+.krispi-caption span {
+  background-color: #111;
+  color: white;
+  padding: 10px;
+  font-size: 30px;
+}
+.krispi-article {
+  text-align: center;
+  padding: 20px;
+  color: #777;
+  position: relative;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+footer {
+  background-color: rgba(71, 214, 71, 0.5);
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.50);
+}
+
+#author ul {
+  justify-content: center;
+  padding: 0 0 20px;
+  margin-bottom: 0;
+}
+#author ul li {
+  margin: 0 5px;
+}
+#author i {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+#author h3 {
+  margin: 0;
+  padding-top: 10px;
+}
+.imas_gallery {
+  margin-bottom: 50px;
+  display: none;
+}
+.left, .right {  
+  cursor: pointer;  
+  position: absolute;  
+  top: 40%;  
+  width: auto;  
+  padding: 16px;  
+  margin-top: -20px;  
+  color: white;  
+  font-weight: bold;  
+  font-size: 18px;  
+  transition: 0.6s ease;  
+  border-radius: 0 3px 3px 0;  
+  background-color: rgba(115, 115, 115, 0.8);  
+
+}  
+.left {
+  left: 0;
+}
+.right {  
+  right: 0;  
+  border-radius: 3px 0 0 3px;  
+} 

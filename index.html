@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Idolm@ster</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#history">History</a>
+                </li>
+                <li>
+                    <a href="#author">Author</a>
+                </li>
+                <li>
+                  <a href="#gacha-page">Gacha</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="krispi-container">
+            <div class="krispi-caption"  id="history">
+                <span>Idolm@ster</span>
+            </div>
+        </div>
+        <div class="krispi-article">
+            <img src="img/imas_logo.png">
+            <h2>Idolm@ster History</h2>
+            <p>The Idolmaster (アイドルマスター, Aidorumasutā, officially stylized as THE iDOLM@STER) is a Japanese media franchise that began with a raising simulation and rhythm video game series created by Bandai Namco Entertainment (formerly Namco). The series primarily centers on the career of a producer who works with a group of prospective pop idols at the talent agency 765 Production. Originally released as an arcade game in 2005, the franchise has grown to numerous ports, sequels and spin-offs across multiple video game consoles, including three social network games. The series includes a variety of other media such as anime, printed media, audio dramas, a Korean drama, and radio shows.
+            </p>
+        </div>
+        <div class="krispi-article" id="gallery">
+          <h2>Gallery</h2>
+          <a class="left" onclick="showNext(-1)">❮</a>  
+          <a class="right" onclick="showNext(1)">❯</a>
+          <div class="imas_gallery">
+            <img src="img/1.png" width="300px" height="300px">
+          </div>
+          <div class="imas_gallery">
+            <img src="img/2.png" width="300px" height="300px">
+          </div>
+          <div class="imas_gallery">
+            <img src="img/3.png" width="300px" height="300px">
+          </div>
+          <div class="imas_gallery">
+            <img src="img/4.png" width="300px" height="300px">
+          </div>
+          <div class="imas_gallery">
+            <img src="img/5.png" width="300px" height="300px">
+          </div>
+        </div>
+        <div class="krispi-container">
+          <div class="krispi-caption" id="gacha-page">
+              <span>Idolm@ster Gacha Fest</span>
+          </div>
+        </div>
+        <div class="gacha-container">
+          <input type="text" id="nama"placeholder="Nama"><br>
+          <button id="click-gacha" onclick="gacha()">Gacha</button>
+          <div id="hasil-container">
+            <img id="hasil-gacha" src="" width="400px" height=" 300px">
+            <p id="congrats"></p>
+          </div>
+        </div>
+        
+        <footer>
+            <div id="author">
+                <h3>The Author</h3>
+                <q>Yosa, still learning to code properly, trying to do something good in life for once.</q>
+                <ul>
+                    <li>
+                        <a href="https://twitter.com/hmyslf"><i class="fa fa-twitter fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/hmyslf"><i class="fa fa-instagram fa-2x"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/hmyslf"><i class="fa fa-github fa-2x"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
